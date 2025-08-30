@@ -36,7 +36,7 @@ export default function Card({
   className = "",
 }: CardProps) {
   return (
-    <div className={`group overflow-hidden rounded-xl border border-light-300 bg-light-100 transition-shadow hover:shadow ${className}`}>
+    <div className={`group overflow-hidden rounded-xl border border-light-300 bg-light-200 transition-shadow hover:shadow ${className}`}>
       <Link href={href} className="block relative">
         <div className="relative w-full aspect-[16/10] bg-light-200">
           {badge ? (
