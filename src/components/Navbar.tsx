@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between">
           <Link href="#" aria-label="Home" className="shrink-0 flex items-center gap-2">
-            <Image src="/logo.svg" alt="Nike" width={36} height={36} priority />
+            <Image src="/logo.svg" alt="Nike" width={36} height={36} priority className="invert" />
           </Link>
 
           <nav className="hidden md:flex items-center gap-10">

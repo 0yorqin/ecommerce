@@ -34,7 +34,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 sm:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
           <div className="flex items-start">
-            <Image src="/logo.svg" alt="Nike" width={56} height={56} className="invert" />
+            <Image src="/logo.svg" alt="Nike" width={56} height={56}  />
           </div>
 
           {sections.map((s) => (
